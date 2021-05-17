@@ -63,12 +63,12 @@ def ventas_categorias(datos):
 
 
 if __name__ == '__main__':
-    base = 'C:/Users/camil/OneDrive/Escritorio/segundocorte'
+    base = '/home/spark/segundo_corte'
     file = 'archivo5.json' 
     ruta = os.path.join(base, file)
     datos = get_datos(ruta)
     
-    #ventas_depto(datos)
+    ventas_depto(datos)
     #ventas_categorias(datos)
     #ventas_materiales(datos)
     #ventas_colores(datos)
